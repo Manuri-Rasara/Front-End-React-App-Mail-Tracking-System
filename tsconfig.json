@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "jsx": "react-jsx",
+      "strict": true,
+      "moduleResolution": "node",
+      "target": "ES5",
+      "esModuleInterop": true,
+      "resolveJsonModule": true,
+    },
+    "include": [
+      "src/**/*"
+    ]
+
+   
+  }
+  

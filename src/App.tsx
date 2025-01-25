@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; 
-import Layout from "./Components/Shared/Layout.jsx"; 
-import Invoices from "./Components/AdminManagement.jsx"; 
+import Layout from "./Components/Shared/Layout"; 
+import Invoices from "./Components/AdminManagement.js"; 
 import Dashboard from "./Components/Dashboard";
-import AdminManagement from "./Components/AdminManagement.jsx";
-import BranchManagement from './Components/BranchManagement.jsx'
-import Help from './Components/Help.jsx'
-import Settings from './Components/Settings.jsx'
+import AdminManagement from "./Components/AdminManagement";
+import BranchManagement from './Components/BranchManagement'
+import Help from './Components/Help'
+import Settings from './Components/Settings'
 
 function App() { 
   return ( 
